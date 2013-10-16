@@ -122,15 +122,8 @@ b .nav-item,
   border-left: none;
 }
 /* Fotogalerie */
-.photogallery {
-  padding: 15px 0 0 15px;
-  background: #ccc;
-  margin-bottom: 1.5em;
-}
-.photogallery .photo {
-  margin: 0 10px 10px 0;
-  width: 120px;
-  float: left;
+.photo a {
+  display: block;
 }
 /* Paticka */
 .foot {
