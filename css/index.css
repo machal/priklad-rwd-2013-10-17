@@ -122,7 +122,8 @@ b .nav-item,
   border-left: none;
 }
 /* Fotogalerie */
-.photo a {
+.photo a,
+.photo img {
   display: block;
 }
 /* Paticka */
