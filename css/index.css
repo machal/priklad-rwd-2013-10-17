@@ -147,6 +147,17 @@ b .nav-item,
 .foot p {
   margin-bottom: 0;
 }
+.map {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+.map iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 /* 
 
 --- Layout - pro siroke displeje --- 
