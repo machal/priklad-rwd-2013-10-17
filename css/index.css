@@ -139,6 +139,10 @@ b .nav-item,
 .photo img {
   display: block;
 }
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
 /* Paticka */
 .foot {
   clear: both;
@@ -166,11 +170,6 @@ b .nav-item,
   --- Layout - pro siroke displeje --- 
   
   */
-  .content img,
-  .side img {
-    max-width: 100%;
-    height: auto;
-  }
   .content table,
   .side table {
     width: 100%;
