@@ -158,60 +158,62 @@ b .nav-item,
   width: 100%;
   height: 100%;
 }
-/* 
-
---- Layout - pro siroke displeje --- 
-
-*/
-.content img,
-.side img {
-  max-width: 100%;
-  height: auto;
-}
-.content table,
-.side table {
-  width: 100%;
-}
-body {
-  background: #ccc;
-}
-.container {
-  max-width: 1000px;
-  position: relative;
-  margin: 3em auto;
-  background: #fff;
-  -webkit-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
-  color: 0px 0px 1em rgba(0, 0, 0, 0.5);
-}
-.logo {
-  padding: 30px 3%;
-  /* 30/1000 */
-
-  margin: 0;
-}
-.content {
-  float: left;
-  padding-left: 3%;
-  /* 30/1000 */
-
-  padding-right: 3%;
-  /* 30/1000 */
-
-  width: 54%;
-  /* 540/1000 */
-
-}
-.side {
-  float: right;
-  padding-left: 3%;
-  /* 30/1000 */
-
-  padding-right: 3%;
-  /* 30/1000 */
-
-  width: 34%;
-  /* 340/1000 */
-
+@media (min-width: 650px) {
+  /* 
+  
+  --- Layout - pro siroke displeje --- 
+  
+  */
+  .content img,
+  .side img {
+    max-width: 100%;
+    height: auto;
+  }
+  .content table,
+  .side table {
+    width: 100%;
+  }
+  body {
+    background: #ccc;
+  }
+  .container {
+    max-width: 1000px;
+    position: relative;
+    margin: 3em auto;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
+    color: 0px 0px 1em rgba(0, 0, 0, 0.5);
+  }
+  .logo {
+    padding: 30px 3%;
+    /* 30/1000 */
+  
+    margin: 0;
+  }
+  .content {
+    float: left;
+    padding-left: 3%;
+    /* 30/1000 */
+  
+    padding-right: 3%;
+    /* 30/1000 */
+  
+    width: 54%;
+    /* 540/1000 */
+  
+  }
+  .side {
+    float: right;
+    padding-left: 3%;
+    /* 30/1000 */
+  
+    padding-right: 3%;
+    /* 30/1000 */
+  
+    width: 34%;
+    /* 340/1000 */
+  
+  }
 }
